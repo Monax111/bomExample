@@ -46,9 +46,8 @@ dependencies {
 
         api("io.sentry:sentry-logback:3.0.0")
 
-        //для миграции на 3 версию нужен рефач https://blog.readme.com/an-example-filled-guide-to-swagger-3-2/
-        api("io.springfox:springfox-swagger2:2.9.2")
-        api("io.springfox:springfox-swagger-ui:2.9.2")
+        api(group = "io.springfox", name = "springfox-boot-starter", version = "3.0.0")
+
         api("io.swagger:swagger-codegen-cli:2.4.14")
 
         api("javax.json:javax.json-api:1.1.4")
