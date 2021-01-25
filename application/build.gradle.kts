@@ -11,12 +11,7 @@ repositories {
 dependencies {
 
     //First yoy mast execute task :bom:publishToMavenLocal
-
-    constraints{
-        implementation("ru.tim:bom:0.0.1")
-    }
-
-    //implementation(platform("ru.tim:bom:0.0.1"))
+    implementation(platform("ru.tim:bom:0.0.1"))
 
     implementation(kotlin( "stdlib-jdk8" ))
 
